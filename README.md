@@ -1,13 +1,13 @@
 ## Clone o repositório
 
 ```bash
-git clone https://github.com/FernandoTinno/AtividadeBackend-3.git
+git clone https://github.com/FernandoTinno/AtividadeBackend-4.git
 ```
 
 **Mude para a pasta do projeto**
 
 ```bash
-cd AtividadeBackend-3
+cd AtividadeBackend-4
 ```
 
 **Acesse o diretório**
@@ -59,4 +59,10 @@ http://127.0.0.1:8000/docs
   "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbkBlbWFpbC5jb20iLCJleHAiOjE3OTQzMzE5OTF9.WnQQE_a5kIUgX9Qj4iLmVtP2cIzB2rbiMpNT4gHVj9c",
   "token_type": "bearer"
 }
+```
+
+**Execute os Testes Automatizados**
+
+```bash
+pytest -v
 ```
